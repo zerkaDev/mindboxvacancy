@@ -1,0 +1,3 @@
+﻿SELECT ИмяПродукта, B.ИмяКатегории FROM Продукты A 
+LEFT OUTER JOIN Категории B
+ON A.[Id категории] = B.Id
